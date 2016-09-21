@@ -1,0 +1,11 @@
+@echo off
+
+echo Hello wich IP do u want to ping?
+set /p h=
+
+echo Please input the package size: (max 1300)
+set /p q=
+
+ping %h% -t -l %q%
+
+Pause 
